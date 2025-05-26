@@ -9,8 +9,8 @@ Features
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/Sign-Lan-To-Text-Converter.git
-cd Sign-Lan-To-Text-Converter
+git clone [https://github.com/yourusername/Sign-Lang-To-Text-Converter](https://github.com/Aditee01/Sign-Lang-To-Text-Converter.git
+cd Sign-Lang-To-Text-Converter
 Install dependencies:
 
 
@@ -28,13 +28,23 @@ Download the ASL Alphabet Dataset from Kaggle (~87,000 images).
 Project Structure
 sign-language-converter/
 ├── asl_alphabet_train/          # Dataset directory
+
 │   └── asl_alphabet_train/
+
 │       ├── A/                   # Sample images for letter A
+
 │       ├── B/
+
 │       └── ...                  # All 29 classes
+
 ├── asl-alphabet-dataset.py      # Model training script
+
 ├── app.py                       # Main application
+
 ├── requirements.txt             # Dependency list
+
 ├── asl_model.h5                 # Trained model (generated)
+
 |-- label.npy
+
 └── README.md   
