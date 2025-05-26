@@ -8,8 +8,7 @@ Features
 
 Clone the repository:
 
-bash
-git clone [https://github.com/yourusername/Sign-Lang-To-Text-Converter](https://github.com/Aditee01/Sign-Lang-To-Text-Converter.git
+git clone https://github.com/yourusername/Sign-Lang-To-Text-Converter
 cd Sign-Lang-To-Text-Converter
 Install dependencies:
 
